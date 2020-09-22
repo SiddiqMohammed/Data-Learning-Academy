@@ -45,11 +45,11 @@ const Home = () => {
       <Landing id={content.landingReference} arrowAnimationReference={content.aboutMeReference} />
       <AboutMe id={content.aboutMeReference} />
       {horizontalRuler}
-      <Projects id={content.projectsReference} />
+      {/* <Projects id={content.projectsReference} />
       {horizontalRuler}
       <Skills id={content.skillsReference} />
       {horizontalRuler}
-      <BlogShowcase id={content.latestBlogPostsReference} />
+      <BlogShowcase id={content.latestBlogPostsReference} /> */}
 
       <div id={content.contactReference} className={`${footerBackground} ${footerPadding}`}>
         <Container noPadding>

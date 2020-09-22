@@ -17,33 +17,33 @@ import Container from "../Util/Container";
 import Row from "../Util/Row";
 import ProfileImage from "../../data/images/aboutMe/celik.jpg";
 
-const aboutMe = require("../../data/aboutMe");
+const aboutUs = require("../../data/aboutUs");
 
-const AboutMe = ({ id }) => {
+const AboutUs = ({ id }) => {
   return (
     <Section id={id}>
       <Container>
         <Row className={`${titleRow}`}>
-          <Heading text={aboutMe.title} className={heading} />
+          <Heading text={aboutUs.title} className={heading} />
           <HorizontalRuler isThick className={ruler} />
         </Row>
         <Row className={`${descriptionRow}`}>
           <div className={description}>
-            <p>{aboutMe.descriptionHead}</p>
+            <p>{aboutUs.descriptionHead}</p>
 
-            <Markdown className={listPadding}>{aboutMe.items.join("\n")}</Markdown>
+            <Markdown className={listPadding}>{aboutUs.items.join("\n")}</Markdown>
 
-            <p>{aboutMe.descriptionTail}</p>
+            <p>{aboutUs.descriptionTail}</p>
           </div>
-          <img className={image} alt={aboutMe.portraitAlt} src={ProfileImage} />
+          <img className={image} alt={aboutUs.portraitAlt} src={ProfileImage} />
         </Row>
       </Container>
     </Section>
   );
 };
 
-AboutMe.propTypes = {
+AboutUs.propTypes = {
   id: PropTypes.string.isRequired,
 };
 
-export default AboutMe;
+export default AboutUs;

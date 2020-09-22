@@ -1,0 +1,11 @@
+{
+  "title": "ABOUT US",
+  "descriptionHead": "We are a data science focused training academy. Our programs are focused on providing industry relevant training and hands-on experience to students in the field of Data Science and Machine Learning. By the end of the course, students will have immense knowledge about the data world, developing various algorithms, working on large datasets and finding insights from data for various businesses. Below are some of the courses that we currently offer",
+  "descriptionTail": "I am highly self-motivated, always willing to improve and push the boundaries in any\n              way possible. I keep myself up to date with recent technologies and diversify my professional work so I can grow an extensive skillset in different areas.",
+  "items": [
+    "* Course 1",
+    "* Course 2",
+    "* Course 3" 
+  ],
+  "portraitAlt": "portrait of the author of this website"
+}

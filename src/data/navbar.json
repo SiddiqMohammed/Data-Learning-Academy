@@ -3,15 +3,15 @@
   "landingReference": "landing",
   "items": [
     {
-      "title":"PROJECTS",
+      "title":"About Us",
       "reference": "projects"
     },
     {
-      "title":"SKILLS",
+      "title":"Courses",
       "reference": "skills"
     },
     {
-      "title":"CONTACT",
+      "title":"Contact Us",
       "reference": "contact"
     },
     {
